@@ -24,4 +24,45 @@ The primary objective of this project is to perform an exploratory data analysis
 * Impact of Events: How do special events, such as holidays, impact bike-sharing usage compared to regular days?
 
 ## Action
-In this section, I'll detail the steps and methodologies used to explore and analyze the London bike-sharing dataset. My approach involved importing the dataset, understanding and manipulating the data, performing data cleaning using Python, and conducting EDA using PowerBI.
+In this section, I'll detail the steps and methodologies used to explore and analyze the London bike-sharing dataset. My approach involved importing the dataset, understanding and manipulating the data, performing data cleaning using Python([Notebook](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Bikes.ipynb)), and conducting EDA using PowerBI.
+### 1. Importing the Dataset
+I began by importing the dataset directly from Kaggle using the Kaggle API. This ensured I accessed the most recent and complete version of the data available.
+![Kaggle](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/Kaggle.png)
+### 2. Understanding and Manipulating the Data
+Once the dataset was imported, I did an initial exploration to understand its structure and contents. This involved:
+
+* Renaming columns to ensure they were descriptive and easy to work with.
+* Mapping categorical data from integers to their actual values for better readability and interpretation.
+* Handling outliers to ensure the data was clean and accurate for analysis. This step was crucial for maintaining the integrity of our analysis and avoiding skewed results.
+
+    ![IQR](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/IQR.png)
+### 3. Saving and Importing the Dataset
+After cleaning and manipulating the data, I saved the updated dataset to a CSV file. This file was then imported into Power BI using "Python Script" from Get Data.
+### 4. Analyzing the Dataset Using PowerBI
+With the dataset loaded into Power BI, I began the analysis by creating a variety of visualizations.I focused on:
+* Daily and hourly usage patterns, analyzing how bike-sharing varied across different times and days.![hourly](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/hourly%20trend.png)![monthly](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/Moving%20Total.png)
+* The impact of weather conditions on bike-sharing usage.![Weather](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/weather.png)
+* Seasonal trends, examining how usage varies across different seasons.![Season](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/Season.png)
+* Correlations between various factors, such as temperature, Humditiy and Wind speed, and the number of bike shares(Hover over to access the scatter plot in tooltip).
+
+    ![Temp](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/Cor_Temp.png)
+* The effect of events, like Weekends and holidays, on bike-sharing usage compared to regular days.![Holiday](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/holidays%20rides.png)
+
+## Result
+### Key Findings
+#### 1. Usage Patterns:
+*
+*
+#### 2.Weather Impact:
+*
+*
+#### 3.Seasonal Trends:
+*
+*
+#### 4.Correlation Analysis:
+*
+*
+#### 5.Impact of Events:
+*
+*
+
