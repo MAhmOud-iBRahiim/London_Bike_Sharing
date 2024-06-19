@@ -13,7 +13,7 @@ Here’s what you can expect:
 ## Situation
 As you know, there's been a recent push to provide free or affordable access to bicycles for short-distance trips in urban areas. This initiative offers a sustainable alternative to motorized public transport or private vehicles, aiming to cut down on traffic congestion, noise, and air pollution.
 
-The [dataset](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/data) we are using for this analysis is sourced from Kaggle and contains detailed information on bike-sharing activities in London. It includes variables such as the count of new bike shares, real temperature, perceived temperature, humidity, wind speed, weather conditions, and indicators for holidays, weekends, and seasons.
+The [dataset](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/data) I am using for this analysis is sourced from Kaggle and contains detailed information on bike-sharing activities in London. It includes variables such as the count of new bike shares, real temperature, perceived temperature, humidity, wind speed, weather conditions, and indicators for holidays, weekends, and seasons.
 
 ## Task
 The primary objective of this project is to perform an exploratory data analysis (EDA) on the London bike-sharing dataset to uncover key trends and patterns. Specifically, we aim to address the following questions:
@@ -47,22 +47,43 @@ With the dataset loaded into Power BI, I began the analysis by creating a variet
 
     ![Temp](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/Cor_Temp.png)
 * The effect of events, like Weekends and holidays, on bike-sharing usage compared to regular days.![Holiday](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/holidays%20rides.png)
+* YoY% Growth by quarter.
+
+     ![YOY](https://github.com/MAhmOud-iBRahiim/London_Bike_Sharing/blob/main/Images/YOY.png)
 
 ## Result
 ### Key Findings
 #### 1. Usage Patterns:
-*
-*
-#### 2.Weather Impact:
-*
-*
-#### 3.Seasonal Trends:
-*
-*
-#### 4.Correlation Analysis:
-*
-*
-#### 5.Impact of Events:
-*
-*
+* The usage is the highest between 7am,9am and 5-6pm. which means that people tends to cycle during the rush hours.
+* Conversely in weekends and holidays usage being more evenly distributed throughout the day 12pm-6pm.
+* Months like Dec, Jan and Feb have the lowest amount of booking.
+#### 2. Seasonal Trends:
+* People prefer better weather conditions. Usage is highest in spring and summer. While usage is very low in fall and winter.
+#### 3. Weather Impact:
+* Regardless of the season, Usage is highest in all seasons when the weather conditions are broken clouds, scatterd clouds and clear.
+#### 4. Correlation Analysis:
+* Bike usage and temperature have 39 percent positive correlation and a 48 percent negative correlation between bike usage and humidity.
+* More users are renting when humidity is less, Conversely There is a uniform distribution of usage across all the temperature and wind speed.
+#### 5. Impact of Events:
+* It's clear that bike usage is much lower on holidays and weekends.Conversely Working days sees more usage, which tells us that going to work and coming back is one of the biggest reasons of renting!.
+#### 6. Year-over-Year Growth:
+* The YOY growth analysis revealed that bike-sharing usage increased significantly in Q3 and Q4 of 2016 compared to the same quarters in 2015, This indicates a growing adoption of bike-sharing services particularly in the latter half of the year.
 
+## Recommendations
+Based on our findings, we recommend the following actions to enhance the bike-sharing system in London:
+
+1. Improve Availability During Peak Times:
+    * Increase the availability of bikes and stations during morning and evening rush hours to accommodate the high demand from commuters.
+2. Weather-Responsive Strategies: 
+    * Implement strategies to maintain or boost bike-sharing usage during adverse weather conditions, such as offering to add a refreshement during humid weather.
+3. Seasonal Promotions:
+    * To encourage usage during off-peak seasons(fall and winter months), we can Launch promotional campaigns.
+
+## Future Improvements
+To further enhance the analysis process, I recommend the following future improvements:
+1. Advanced Predictive Analytics:
+    * Utilize machine learning models to predict bike-sharing demand based on weather forecasts, events, and historical trends.
+2. User Feedback Analysis:
+    * Collect and analyze user feedback to identify areas for improvement in the bike-sharing service.
+3. Dashboard UI enhancements:
+    * Work more on the dashboard design and make it more visually appealing.      
